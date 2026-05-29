@@ -75,7 +75,6 @@ pip install -r requirements.txt
 
 uvicorn main:app --reload
 ```
-Backend runs at: http://127.0.0.1:8000
 
 ### 3️⃣ Frontend setup
 ``` bash
@@ -83,7 +82,6 @@ cd frontend
 npm install
 npm run dev
 ```
-Frontend runs at: http://localhost:5173
 
 ## 🔌 API Endpoint
 Translate Text
