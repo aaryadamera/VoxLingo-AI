@@ -56,14 +56,14 @@ voxlingo-ai/
 │   ├── package.json
 │
 └── README.md
-
+``` 
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the repository
-```bash
+``` bash 
 git clone https://github.com/your-username/voxlingo-ai.git
 cd voxlingo-ai
-
+```
 ### 2️⃣ Backend Setup
 ``` bash
 cd backend
@@ -75,17 +75,16 @@ pip install -r requirements.txt
 
 uvicorn main:app --reload
 Backend runs at: http://127.0.0.1:8000
-
+``` 
 ### 3️⃣ Frontend setup
 ``` bash
 cd frontend
 npm install
 npm run dev
-
+```
 Frontend runs at: http://localhost:5173
 
 ## 🔌 API Endpoint
-``` bash
 Translate Text
 POST /translate
 
@@ -101,7 +100,6 @@ Response
 }
 
 ## 🧠 Key Learnings
-``` bash
 - FastAPI backend development
 - React state management
 - API integration (frontend ↔ backend)
@@ -110,7 +108,6 @@ Response
 - Full-stack project architecture
 
 ## 📌 Future Improvements
-``` bash
 🎙️ Voice input & output support
 🤖 AI-powered contextual translation
 💾 Save translation history
@@ -119,7 +116,6 @@ Response
 🌐 Live deployment
 
 ## 👨‍💻 Author
-``` bash
 Aarya Damera
 B.Tech Student | AI & Full Stack Developer
 Passionate about AI, LLMs, and real-world applications
