@@ -1,1 +1,107 @@
+🌐 VoxLingo AI Translator
+A full-stack AI-powered real-time language translation web application built using FastAPI (Python) and React.js with a modern and responsive UI.
 
+📸 Preview
+  <img src="assets/voxlingo.png" width="750"/>
+
+
+🚀 Features
+⚡ Real-time text translation
+🌍 Multi-language support
+🔄 Instant language switching
+🎯 Fast and lightweight FastAPI backend
+🎨 Clean and responsive UI
+🔗 Seamless frontend–backend communication
+📡 API-based architecture
+🛠️ Tech Stack
+
+Frontend
+React.js
+Vite
+CSS / Tailwind (if used)
+
+Backend
+FastAPI
+Python
+Uvicorn
+
+API
+Google Translate API / googletrans
+
+📁 Project Structure
+voxlingo-ai/
+│
+├── backend/
+│   ├── main.py
+│   ├── requirements.txt
+│   └── venv/ (ignored)
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   └── components/
+│   ├── package.json
+│
+└── README.md
+
+⚙️ Setup Instructions
+1️⃣ Clone the repository
+git clone https://github.com/your-username/voxlingo-ai.git
+cd voxlingo-ai
+
+2️⃣ Backend setup
+cd backend
+python -m venv venv
+venv\Scripts\activate   # Windows
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+
+Backend runs at:
+http://127.0.0.1:8000
+
+3️⃣ Frontend setup
+cd frontend
+
+npm install
+npm run dev
+
+Frontend runs at:
+http://localhost:5173
+
+🔌 API Endpoint
+Translate Text
+POST /translate
+Request
+{
+  "text": "Hello",
+  "source_lang": "en",
+  "target_lang": "hi"
+}
+Response
+{
+  "translated_text": "नमस्ते"
+}
+
+🧠 Key Learnings
+- FastAPI backend development
+- React state management
+- API integration (frontend ↔ backend)
+- CORS handling
+- Real-time UI updates
+
+Future Improvements
+🎙️ Voice input & output
+🤖 AI-based smart translation (LLM upgrade)
+💾 Save translation history
+📱 Mobile PWA version
+🔐 User authentication system
+👨‍💻 Author
+
+Aarya Damera
+B.Tech Student | AI & Full Stack Developer
+Passionate about AI, LLMs, and real-world applications
+
+⭐ Support
+If you like this project, consider giving it a ⭐ on GitHub.
