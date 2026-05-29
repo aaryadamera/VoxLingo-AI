@@ -74,8 +74,9 @@ venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 
 uvicorn main:app --reload
+```
 Backend runs at: http://127.0.0.1:8000
-``` 
+
 ### 3️⃣ Frontend setup
 ``` bash
 cd frontend
@@ -108,12 +109,13 @@ Response
 - Full-stack project architecture
 
 ## 📌 Future Improvements
-🎙️ Voice input & output support
-🤖 AI-powered contextual translation
-💾 Save translation history
-📱 Mobile PWA version
-🔐 Authentication system
-🌐 Live deployment
+- 🎙️ Voice input & output support
+- 🤖 AI-powered contextual translation
+- 💾 Save translation history
+- 📱 Mobile PWA version
+- 🔐 Authentication system
+- 🌐 Live deployment
+
 
 ## 👨‍💻 Author
 Aarya Damera
@@ -121,5 +123,4 @@ B.Tech Student | AI & Full Stack Developer
 Passionate about AI, LLMs, and real-world applications
 
 ## ⭐ Support
-``` bash
 If you like this project, consider giving it a ⭐ on GitHub.
